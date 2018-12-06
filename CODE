@@ -156,10 +156,6 @@ class AgreeablenessGraph(BaseGraph):
         return x_values, y_values
 
 
-
-
-
-
 def main():
     #Zone._initialize_zones()   
     for agent_attributes in json.load(open("agents-100k.json")):
